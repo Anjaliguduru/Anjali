@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Profile</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three unequal columns that sits next to each other */
+.column {
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Left and right column */
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+}
+
+/* Middle column */
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<h4>Name:G.Anjali</h4>
+<h5>Email id:anjaliguduru03@gmail.com</h5>
+<h5>Phone no:77331845542</h5>
+
+
+<h3>Career Obkective:</h3>
+<ul>
+<li>To work in an environment which encourages me to succeed and grow professionally where i can utilize my skills and knowledge appropriatelty.</li>
+</ul>
+<h3>Education Details:</h3>
+<div class="row">
+  <div class="column side" style="background-color:#aaa;"> <ul>
+    <h3>Qualification</h3>
+    <li>Bachelor of Technology</li>
+    <li>Board of Intermediate</li>
+    <li>Secondary School Cerfication</li>
+
+  </ul></div>
+  <div class="column middle" style="background-color:#bbb;"><ul>
+    <h3>Institution</h3>
+    <li>Jaya Prakash Narayan College of Engineering/li>
+    <li>Adhitya Junior College</li>
+    <li>zpha kodandapuram</li>
+  </ul></div>
+  <div class="column side" style="background-color:#ccc;"><ul>
+    <h3>Percentage</h3>
+    <li>7.3</li>
+    <li>94.5</li>
+    <li>8.8</li>
+  </ul></div>
+</div>
+<h3>Technical Skills:</h3>
+<ul>
+<li>C programming </li>
+<li>core java</li>
+</ul>
+<h3>Achievements:</h3>
+<ul>
+<li>Certified in career skills online course offered bt TCSion digital learnin hub.</li>
+<li>Certified in core java.</li>
+<li>Certified in Aptitude and Reasoning conducted by TASK.</li>
+<li>Sales Force Trialhead Url:http://trailblazer.me/id/anju123456</li>
+</ul>
+<h3>Extra-Cirricular Activities:</h3>
+<ul>
+  <li>participated in Unnat Bharat Adhiyan.</li>
+  <li>Participated in Chekumuki talent test in mondal level.</li>
+</ul>
+<h3>Personal Details:</h3>
+<ul>
+  <li>Name         :G.Anjali</li>
+  <li>father's Name:G.Jayaram Reddy</li>
+  <li>Nationality  :Indian</li>
+  <li>Gender       :Single</li>
+  <li>Address      :2-6,Kodandapuram(v),Itikyala(M),Jogulamba gadwal(D).</li>
+  <li>Languages    :English,Telugu.</li>
+</ul>
+<h3>Declaration:</h3>
+<ul>
+  <li>I here by declare that the details above  mentioned are correct and true to best of my knoelwdge.</li>
+</ul>
+
+
+<div class="footer">
+  <p>anjaliguduru03@gmail.com, India,Telangana,Jogulamba gadwal,Itikyala,kodandapuram</p>
+</div>
+
+</body>
+</html>
